@@ -14,8 +14,8 @@ It also implement error handling:
 - I sanitise the user input by default, making sure to remove any special characters or extraneous spaces.
 
 ## USER INTERFACE
-The segments implement the interactivity of a:
-- look up button. 
+The code segment handles the interactivity of a:
+- Look up button. 
 
 ## FUNCTIONS
 
