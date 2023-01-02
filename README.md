@@ -7,12 +7,11 @@ This coding excerpt implements:
 - looking up a word in **The Oxford Dictionary**, and 
 - saving it to a SQLite database.
 
-## USER INTERFACE & INTERACTIVITY
-The segments implement a pared-down user interface with:
-- an input field, and 
-- a look up button. 
+## USER INTERFACE
+The segments implement a pared-down user interface, i.e:
+- the interactivity of a look up button. 
 
-The associated functions handle calling the API. The code reflects the nested structure of the Oxford Languages API and accesses the relevant endpoints, parsing the returned JSON data and displaying it into the view. 
+The associated functions, triggered by the button, handle calling the API. The code reflects the nested structure of the Oxford Languages API and accesses the relevant endpoints, parsing the returned JSON data and displaying it into the view. 
 
 I also implement error handling:
 - In order to avoid calling the API too frequently, I check if the word inputed by the user doesn’t already exist in the SQLite database. 
