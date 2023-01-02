@@ -27,6 +27,6 @@ The code segment handles the interactivity of a:
 - *func sanitizedWordId() -> (String)*
   Sanitizes the user input and returns the word_id that will be used to make the API call
 - *func APICall()*
-  Handles the API call. The function reflects the nested structure of the [Oxford Languages API](https://developer.oxforddictionaries.com/documentation#!/Entries/get_entries_source_lang_word_id). It accesses the relevant API endpoints, parse the returned JSON data and displays it into the user interface. 
+  Handles the API call. The function reflects the nested structure of the [Oxford Languages API](https://developer.oxforddictionaries.com/documentation#!/Entries/get_entries_source_lang_word_id). It accesses the relevant API endpoints, parse the returned JSON data and displays it onto the user interface. 
 
 
