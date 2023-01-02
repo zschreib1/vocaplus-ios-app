@@ -1,1 +1,20 @@
-# vocaplus-ios-app
+# Voca+ -sample
+
+Coding sample from *Voca+*, the *vocabulary-reference* **iOS app** that I created using **Swift**, **UIKit**, **Interface Builder**, **SQLite**, **Oxford Languages API**, **Xcode**. 
+
+## FUNCTIONALITY 
+This coding excerpt implements:
+- looking up a word in **The Oxford Dictionary**, and 
+- saving it to a SQLite database.
+
+## USER INTERFACE & INTERACTIVITY
+These segments implement a pared-down user interface with:
+- an input field, and 
+- a look up button. 
+
+The associated functions handle calling the API. The code reflects the nested structure of the Oxford Languages API and accesses the relevant endpoints, parsing the returned JSON data and displaying it into the view. 
+
+I also implement error handling:
+- In order to avoid calling the API too frequently, I check if the word inputed by the user doesn’t already exist in the SQLite database. 
+- I also check for an internet connection in order to prevent the app crashing when no wifi or data roaming is enabled on the user’s device. 
+- I also sanitise user input by default, making sure to remove any special characters or extraneous spaces.
