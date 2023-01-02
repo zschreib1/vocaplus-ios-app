@@ -8,7 +8,7 @@ This coding excerpt implements:
 - saving it to a SQLite database.
 
 ## USER INTERFACE & INTERACTIVITY
-These segments implement a pared-down user interface with:
+The segments implement a pared-down user interface with:
 - an input field, and 
 - a look up button. 
 
