@@ -6,7 +6,7 @@ Coding sample from **Voca+**, the *vocabulary-reference* **iOS app** that I crea
 This coding excerpt implements:
 - *looking up* a word in The Oxford Dictionary, 
 - *saving* it to a SQLite database, and
-- *displaying* it's definition.
+- *displaying* it's definition in the view.
 
 It also implement error handling:
 - In order to avoid calling the API too frequently, I check if the word inputed by the user doesn’t already exist in the SQLite database. 
