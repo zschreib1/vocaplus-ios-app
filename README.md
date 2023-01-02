@@ -11,7 +11,7 @@ This coding excerpt implements:
 The segments implement a pared-down user interface, i.e:
 - the interactivity of a look up button. 
 
-The associated functions, triggered by the button, handle calling the API. The code reflects the nested structure of the Oxford Languages API and accesses the relevant endpoints, parsing the returned JSON data and displaying it into the view. 
+The associated functions, triggered by the button, handle calling the API. The code reflects the nested structure of the Oxford Languages API and accesses the relevant endpoints, parses the returned JSON data and displays it into the view. 
 
 I also implement error handling:
 - In order to avoid calling the API too frequently, I check if the word inputed by the user doesn’t already exist in the SQLite database. 
