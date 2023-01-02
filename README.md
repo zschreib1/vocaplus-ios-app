@@ -2,6 +2,8 @@
 
 Coding sample from **Voca+**, the *vocabulary-reference* **iOS app** that I created using **Swift**, **UIKit**, **Interface Builder**, **SQLite**, **Oxford Languages API**, **Xcode**. 
 
+Click here for more info about [Voca+](https://www.zoeschreiber.be/portfolio/vocaplus)Voca+ iOS app.
+
 ## FUNCTIONALITY 
 This coding excerpt implements:
 - *looking up* a word in The Oxford Dictionary, 
