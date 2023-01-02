@@ -4,8 +4,9 @@ Coding sample from **Voca+**, the *vocabulary-reference* **iOS app** that I crea
 
 ## FUNCTIONALITY 
 This coding excerpt implements:
-- looking up a word in **The Oxford Dictionary**, and 
-- saving it to a SQLite database.
+- *looking up* a word in The Oxford Dictionary, 
+- *saving* it to a SQLite database, and
+- *displaying* it's definition.
 
 ## USER INTERFACE
 The segments implement a pared-down user interface, i.e:
