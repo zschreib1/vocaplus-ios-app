@@ -73,7 +73,7 @@ func duplicateMatch() -> Bool {
     return false
 }
 
-// This function handles the Oxford English Dictionary API call. It accesses the relevant API endpoints, parse the returned JSON data, displays it onto the user interface and saves data to the database.
+// This function handles the Oxford English Dictionary API call. It accesses the relevant API endpoints, parse the returned JSON data, displays it onto the user interface and saves data to the SQLite database.
 func APICall() {
         
     let word_id = sanitizedWordId()
