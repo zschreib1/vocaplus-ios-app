@@ -1,6 +1,6 @@
 # Voca+ -sample
 
-Coding sample from *Voca+*, the *vocabulary-reference* **iOS app** that I created using **Swift**, **UIKit**, **Interface Builder**, **SQLite**, **Oxford Languages API**, **Xcode**. 
+Coding sample from **Voca+**, the *vocabulary-reference* **iOS app** that I created using **Swift**, **UIKit**, **Interface Builder**, **SQLite**, **Oxford Languages API**, **Xcode**. 
 
 ## FUNCTIONALITY 
 This coding excerpt implements:
