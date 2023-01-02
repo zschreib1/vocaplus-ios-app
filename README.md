@@ -19,8 +19,7 @@ The code segment handles the interactivity of a:
 
 ## FUNCTIONS
 
-- *@IBAction func lookUp(_ sender: UIButton)*  
-  Handles the behavior of the look-up button and calling the API.
+- *@IBAction func lookUp(_ sender: UIButton)* Handles the behavior of the look-up button and calling the API.
 - *func triggerOrDismissAPICall (duplicate: Bool) -> Bool*. 
   Triggers the API call.
 - *func duplicateMatch() -> Bool*
