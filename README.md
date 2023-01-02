@@ -21,7 +21,7 @@ The code segment handles the interactivity of a:
 
 - *@IBAction func lookUp(_ sender: UIButton)*  Handles the behavior of the look-up button and calling the API.
 - *func triggerOrDismissAPICall (duplicate: Bool) -> Bool*. Triggers the API call.
-- - *func duplicateMatch() -> Bool*  Checks whether the entry is a duplicate or not. 
+- *func duplicateMatch() -> Bool*  Checks whether the entry is a duplicate or not. 
 - *func sanitizedWordId() -> (String)*  Sanitizes the user input and returns the word_id that will be used to make the API call
 - *func APICall()*  Handles the API call. The function reflects the nested structure of the [Oxford Languages API](https://developer.oxforddictionaries.com/documentation#!/Entries/get_entries_source_lang_word_id). It accesses the relevant API endpoints, parse the returned JSON data and displays it into the user interface. 
 
